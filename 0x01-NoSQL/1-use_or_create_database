@@ -1,0 +1,3 @@
+// Script that creates and/or switches to my_db.
+
+use my_db;
