@@ -1,0 +1,6 @@
+// Script that deletes all docs in school collection.
+
+db.school.remove(
+        { name: "Holberton school" },
+        { }
+)
