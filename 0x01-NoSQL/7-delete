@@ -1,6 +1,6 @@
 // Script that deletes all docs in school collection.
 
-db.school.remove(
+db.school.deleteMany(
         { name: "Holberton school" },
         { }
 )
